@@ -4,7 +4,7 @@ html {
 
 * {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 22px;
+  /* font-size: 22px; */
   color: seashell;
   /* background-color: black; */
   /* opacity: 0.9; */
@@ -63,8 +63,11 @@ nav {
   height: 700px;
 }
 
+h1,
 h2,
-h4 {
+h4,
+h3,
+h5 {
   text-align: center;
 }
 
@@ -72,4 +75,33 @@ h4 {
   width: 1200px;
   background-color: black;
   position: absolute;
+  justify-content: center;
+}
+
+/* TEA OF THE MONTH */
+.tea-container {
+  width: 1000px;
+  /* background-color: red; */
+  margin: 50px auto;
+}
+
+.images {
+  padding: 10px;
+  display: flex;
+  /* display: block; */
+  justify-content: center;
+  /* align-items: center; */
+  /* background-color: red; */
+  flex-wrap: wrap;
+}
+
+.images .feature-tea {
+  display: inline-block;
+  margin: 0 10px;
+  /* background-color: black; */
+}
+
+.images .feature-tea img {
+  height: 200px;
+  width: 300px;
 }
